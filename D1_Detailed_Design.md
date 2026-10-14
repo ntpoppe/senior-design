@@ -10,8 +10,6 @@ Braden Hayes, Nate Poppe
 
 **Scope.** This document covers three D0 components: Game and Results Storage, Game Import and Validation, and Chess Feature Extraction. The User Interface, Blunder-Risk Model, and Risk Explanation and Analytics will be covered in D2.
 
-**Reading the data model diagram.** Each box is one table in our database. The dark header is the table name, and each row below it is a column, with its type on the right. Only columns that affect how the system behaves are shown. The green tags on the left mark keys: PK is a primary key, FK is a foreign key that points to another table, UK means the column is part of a unique rule, and IX means the column is indexed. Each line connects two related tables and is labeled with how they relate. The symbols at each end of a line, repeated as green text, show how many rows can be on that side: 1 means exactly one, 0..1 means zero or one, 0..N means zero or more, and 1..N means one or more.
-
 ## Data model
 
 ![Data model](images/D1_data_model.png)
